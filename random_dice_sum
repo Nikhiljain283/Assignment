@@ -1,0 +1,8 @@
+num1=$(( 1+RANDOM%6 ))
+num2=$(( 1+RANDOM%6 ))
+echo "Number on dice 1 : $num1 "
+echo "Number on dice 2 : $num2 "
+echo "Sum of two random dice number : $(( num1+
+num2 )) "
+
+
